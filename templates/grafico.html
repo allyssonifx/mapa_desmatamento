@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+		body {
+			background-color: white;
+		}
+    </style>
+</head>
+<body>
+    <h1>Dashboard {{dado}}</h1>
+    <p>Última atualização {{att}}</p>
+    <p>Última verificação {{ver}}</p>
+    <p>Próxima atualização {{pro}}</p>
+    <!-- Exibindo o gráfico -->
+    {{ plot_div|safe }}
+</body>
+</html>
